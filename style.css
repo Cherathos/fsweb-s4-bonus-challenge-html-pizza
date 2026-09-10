@@ -277,6 +277,7 @@ button:focus-visible {
   font-size: 2rem;
   line-height: 1.1;
   margin: 0 0 25px 0;
+  color: #FAF7F2;
 }
 
 .menu-sag-alt {
@@ -295,7 +296,7 @@ button:focus-visible {
   font-size: 2rem;
   line-height: 1.1;
   margin: 0 0 25px 0;
-  color: #222;
+  color: #292929;
 }
 
 .menu-sag-alt h2 span {
@@ -370,22 +371,21 @@ button:focus-visible {
   color: #FAF7F2;
 }
 
-.menu-content {
+.en-cok-menu-content {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.menu-content h2 {
+.en-cok-menu-content h2 {
   font-family: "Barlow", sans-serif;
   font-size: 1.25rem;
   line-height: 1.1;
   margin-bottom: 5px;
   color: #292929;
-
 }
 
-.menu-content p {
+.en-cok-menu-content p {
   margin-top: 0px;
   display: flex;
   font-size: 1rem;
@@ -394,7 +394,7 @@ button:focus-visible {
   color: #292929;
 }
 
-.menu-content p span{
+.en-cok-menu-content p span{
   font-size: 1rem;
   font-weight: bold;
   color: #292929
