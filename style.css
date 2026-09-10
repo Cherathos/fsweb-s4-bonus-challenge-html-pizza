@@ -134,11 +134,6 @@ button:focus-visible {
   text-align: center;
 }
 
-.header-items h1 {
-  font-family: "Roboto Condensed", sans-serif;
-  margin: 0;  
-}
-
 .header-items h2 {
   font-family: "Barlow", sans-serif;
   margin: 0;
@@ -153,16 +148,16 @@ button:focus-visible {
   color: #FDC913;
 }
 
-.menu-items {
-  display: flex;
-  gap: 2rem;
-}
-
 .menu {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
   background: #FAF7F2;
+}
+
+.menu-items {
+  display: flex;
+  gap: 2rem;
 }
 
 .menu-item {
@@ -374,8 +369,6 @@ button:focus-visible {
   background-color: #292929;
   color: #FAF7F2;
 }
-
-
 
 .menu-content {
   display: flex;
