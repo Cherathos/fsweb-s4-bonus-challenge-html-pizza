@@ -516,6 +516,7 @@ footer {
     width: 100%;
     height: 100vh;
     overflow: hidden;
+    object-fit: cover;
   }
 
   .header-items {
@@ -596,6 +597,10 @@ footer {
     left: 20px;
   }
 
+  .menu-sag-ust button, .menu-sag-alt button {
+    margin-top: 30px;
+  }
+
   .en-cok-menu {
     flex-direction: column;
     gap: 30px;
@@ -640,8 +645,9 @@ footer {
   .footer-center,
   .footer-right {
     width: 100%;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 20px;
   }
 
   .footer-left {
@@ -651,7 +657,7 @@ footer {
   .lokasyon,
   .mail,
   .tel {
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .footer-center {
@@ -659,13 +665,14 @@ footer {
   }
 
   .footer-center ul {
+    justify-content: flex-start;
     padding: 0;
     margin: 0;
     list-style: none;
   }
 
   .footer-center a {
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .footer-right {
