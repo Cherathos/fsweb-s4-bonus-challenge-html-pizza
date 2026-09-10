@@ -264,6 +264,10 @@ button:focus-visible {
   border-radius: 10px;
 }
 
+.menu-sag-ust h2 {
+  color: #FAF7F2;
+}
+
 .menu-sag-ust .menu-content {
   position: absolute;
   top: 25px;
